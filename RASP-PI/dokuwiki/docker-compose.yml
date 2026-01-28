@@ -1,6 +1,6 @@
 services:
   dokuwiki:
-    image: linuxserver/dokuwiki:latest
+    image: lscr.io/linuxserver/dokuwiki:latest
     container_name: dokuwiki
     environment:
       - PUID=${PUID}
