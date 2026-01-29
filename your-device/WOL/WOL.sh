@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# this script is used to wake up a device in the tailscale network from your local machine with a jump host
+
 # Load variables from the .env file in the current directory
-# The "||" part stops the script if the file is missing
+
 source "$(dirname "$0")/.env" || { echo ".env file not found"; exit 1; }
 
 echo "Name of device: "
