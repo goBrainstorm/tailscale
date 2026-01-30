@@ -13,4 +13,4 @@ target_mac = ""
 echo "Connecting to $JUMP_HOST to wake target..."
 
 # Execute the command
-ssh "$JUMP_USER@$JUMP_HOST" "wakeonlan $target_mac"
+ssh "$JUMP_USER@$JUMP_HOST" "wakeonlan $DEVICE_NAME"
