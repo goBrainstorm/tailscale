@@ -1,0 +1,1 @@
+0 4 * * * apt update && apt full-upgrade -y && apt autoremove -y >> /var/log/daily_update.log 2>&1
